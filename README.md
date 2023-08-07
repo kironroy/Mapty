@@ -7,6 +7,7 @@
 - 🏃[Original author: Jonas Schmedtmann](https://mapty.netlify.app/)🚴
 - 🏃[My version](https://mapty-kr-project.netlify.app/)🚴
 - 🗺️[Basemap Styles](https://leaflet-extras.github.io/leaflet-providers/preview/)
+- ✨[Custom markers](https://leafletjs.com/examples/custom-icons/ )
 
 ---
 
