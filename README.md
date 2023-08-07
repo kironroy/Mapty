@@ -1,8 +1,14 @@
 # Mapty: Practice project
 
-🏃[Original project](https://mapty.netlify.app/)🚴
+## Links
 
-🗺️[Basemap Styles](https://leaflet-extras.github.io/leaflet-providers/preview/)
+---
+
+- 🏃[Original author: Jonas Schmedtmann](https://mapty.netlify.app/)🚴
+- 🏃[My version](https://mapty-kr-project.netlify.app/)🚴
+- 🗺️[Basemap Styles](https://leaflet-extras.github.io/leaflet-providers/preview/)
+
+---
 
 ## User Stories
 
