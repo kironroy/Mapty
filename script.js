@@ -109,15 +109,18 @@ class App {
     this.#map = L.map('map').setView(coords, this.#mapZoomLevel);
     // console.log(map);
 
-    L.tileLayer('https://tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    }).addTo(this.#map);
+    L.tileLayer(
+      'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png',
+      {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }
+    ).addTo(this.#map);
 
     // google maps
     // L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
     //   maxZoom: 20,
-    //   subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+    //   subdomains:https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png ['mt0', 'mt1', 'mt2', 'mt3'],
     // }).addTo(this.#map);
 
     // handling clicks on map
